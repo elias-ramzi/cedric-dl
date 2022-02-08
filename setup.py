@@ -4,7 +4,7 @@ with open('requirements.txt') as open_file:
     install_requires = open_file.read()
 
 setuptools.setup(
-    name='cedric_dl',
+    name='cedric',
     version='0.0.0',
     packages=[''],
     url='https://github.com/elias-ramzi/cedric-dl',

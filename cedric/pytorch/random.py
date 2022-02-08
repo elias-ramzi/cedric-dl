@@ -4,7 +4,7 @@ from functools import wraps
 import numpy as np
 import torch
 
-from imgrfb.lib.logger import LOGGER
+from cedric.lib.logger import LOGGER
 
 
 def random_seed(seed=0, backend=True):
